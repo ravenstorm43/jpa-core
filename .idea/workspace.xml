@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834ce88f-1e06-405b-b1a0-ce2ed886951b" name="Changes" comment="영속성 컨텍스트 실습">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersistenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="834ce88f-1e06-405b-b1a0-ce2ed886951b" name="Changes" comment="영속성 컨텍스트의 기능 실습">
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntityStateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +53,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="GradleRunConfiguration" name="PersistenceTest.test1" />
-    </enabled-run-configurations>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -70,40 +64,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.EntityTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EntityTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PersistenceTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PersistenceTest.test2.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.PersistenceTest.test3.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PersistenceTest.test4.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PersistenceTest.test5.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.PersistenceTest.test6.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.PersistenceTest.test7.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PersistenceTest.test8.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/untitled1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.EntityStateTest.test1.executor": "Run",
+    "Gradle.EntityStateTest.test2.executor": "Debug",
+    "Gradle.EntityStateTest.test3.executor": "Debug",
+    "Gradle.EntityStateTest.test4.executor": "Run",
+    "Gradle.EntityStateTest.test5.executor": "Debug",
+    "Gradle.EntityTest.test1.executor": "Run",
+    "Gradle.EntityTest.test2.executor": "Run",
+    "Gradle.PersistenceTest.test1.executor": "Run",
+    "Gradle.PersistenceTest.test2.executor": "Debug",
+    "Gradle.PersistenceTest.test3.executor": "Run",
+    "Gradle.PersistenceTest.test4.executor": "Run",
+    "Gradle.PersistenceTest.test5.executor": "Debug",
+    "Gradle.PersistenceTest.test6.executor": "Debug",
+    "Gradle.PersistenceTest.test7.executor": "Run",
+    "Gradle.PersistenceTest.test8.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/spring/week2/jpa-core",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Gradle.PersistenceTest.test8">
-    <configuration name="PersistenceTest.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RunManager" selected="Gradle.EntityStateTest.test6">
+    <configuration name="EntityStateTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +115,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;PersistenceTest.test4&quot;" />
+            <option value="&quot;EntityStateTest.test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,7 +126,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersistenceTest.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +139,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;PersistenceTest.test5&quot;" />
+            <option value="&quot;EntityStateTest.test3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +150,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersistenceTest.test6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;PersistenceTest.test6&quot;" />
+            <option value="&quot;EntityStateTest.test4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,7 +174,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersistenceTest.test7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -188,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;PersistenceTest.test7&quot;" />
+            <option value="&quot;EntityStateTest.test5&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,7 +198,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersistenceTest.test8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EntityStateTest.test6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -212,7 +211,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;PersistenceTest.test8&quot;" />
+            <option value="&quot;EntityStateTest.test6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -225,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PersistenceTest.test8" />
-        <item itemvalue="Gradle.PersistenceTest.test7" />
-        <item itemvalue="Gradle.PersistenceTest.test6" />
-        <item itemvalue="Gradle.PersistenceTest.test5" />
-        <item itemvalue="Gradle.PersistenceTest.test4" />
+        <item itemvalue="Gradle.EntityStateTest.test6" />
+        <item itemvalue="Gradle.EntityStateTest.test5" />
+        <item itemvalue="Gradle.EntityStateTest.test4" />
+        <item itemvalue="Gradle.EntityStateTest.test3" />
+        <item itemvalue="Gradle.EntityStateTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +250,7 @@
       <updated>1715839009654</updated>
       <workItem from="1715839010682" duration="9668000" />
       <workItem from="1715922137130" duration="88000" />
+      <workItem from="1715922272972" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -276,17 +276,37 @@
       <option name="project" value="LOCAL" />
       <updated>1715846298985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="영속성 컨텍스트의 기능 실습">
+      <option name="closed" value="true" />
+      <created>1715922309906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715922309906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="Entity 이해하기" />
     <MESSAGE value="영속성 컨텍스트 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트 실습" />
+    <MESSAGE value="영속성 컨텍스트의 기능 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트의 기능 실습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -305,6 +325,26 @@
           <url>file://$PROJECT_DIR$/src/test/java/PersistenceTest.java</url>
           <line>215</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/EntityStateTest.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/PersistenceTest.java</url>
